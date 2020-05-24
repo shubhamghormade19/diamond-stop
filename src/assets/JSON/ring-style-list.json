@@ -1,0 +1,37 @@
+[
+  {
+    "type_id": "solitaire",
+    "type_name": "Solitaire",
+    "icon": "../assets/img/solitaire.svg",
+    "is_select": false
+  },
+  {
+    "type_id": "pave",
+    "type_name": "Pave",
+    "icon": "../assets/img/pave.svg",
+    "is_select": false
+  },
+  {
+    "type_id": "channel-set",
+    "type_name": "Channel Set",
+    "icon": "../assets/img/channel-set.svg",
+    "is_select": false
+  },
+  {
+    "type_id": "3-stone",
+    "type_name": "Three Stone",
+    "icon": "../assets/img/3-stone.svg",
+    "is_select": false
+  },
+  {
+    "type_id": "halo",
+    "type_name": "Halo",
+    "icon": "../assets/img/halo.svg",
+    "is_select": false
+  },
+  {
+    "type_id": "double-halo",
+    "type_name": "Double Halo",
+    "icon": "../assets/img/double-halo.svg"
+  }
+]

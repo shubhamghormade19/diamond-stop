@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="ring-style--container" *ngIf="filterPageObject?.ringStyleList">
+        <ul>
+          <li *ngFor="let item of filterPageObject?.ringStyleList" (click)="onRingStyleSelect(item)">
+            <img [alt]="item.type_name" [src]="item?.icon" [ngClass]="{'style-selected': item?.is_select}">
+            <span>{{item?.type_name | uppercase}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-9">
+      <div class="color-type--container" *ngIf="filterPageObject?.colorTypeList">
+        <ul>
+          <li *ngFor="let item of filterPageObject?.colorTypeList" (click)="onColorTypeSelect(item)">
+            <span [ngClass]="{'style-selected': item?.is_select}" class="icon-container">
+              <span class="color-type-icon"
+                [style.border-color]="item?.icon_color">{{item?.icon_content | uppercase}}</span>
+            </span>
+            <span>{{item?.type_name | uppercase}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div>
+  </div>
+
+  <div class="row">
+    <h5>Solitaire Engagement Rings <strong>- All Viewable In 360° HD </strong></h5>
+    <p>Solitaire engagement rings are comprised of a single center diamond or gemstone mounted in a simple setting. The
+      solitaire ring is classic and elegant, a style to stand the test of time. Start by choosing the perfect solitaire
+      ring setting and then set it with a loose diamond or gemstone, all in stunning 360° HD.
+    </p>
+    <ul>
+      <li *ngFor="let item of filterPageObject?.productList">
+        <img [alt]="item.style_type" [src]="item?.product_img_url">
+        <span>{{item?.description}}</span>
+      </li>
+    </ul>
+  </div>
+</div>

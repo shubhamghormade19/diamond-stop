@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.ring-style--container {
+  ul {
+
+    li {
+      display: inline-grid;
+      padding: 0 10px;
+      text-align: center;
+
+      img {
+        width: 80px;
+        height: 40px;
+        padding: 5px;
+
+        &.style-selected {
+          border: 1px solid pink;
+        }
+      }
+
+      span {}
+    }
+  }
+}
+
+.color-type--container {
+  ul {
+
+    li {
+      display: inline-grid;
+      padding: 0 10px;
+      text-align: center;
+
+      .icon-container {
+        padding: 8px 10px;
+
+        .color-type-icon {
+          border: 3px solid black;
+          border-radius: 50%;
+          width: 34px;
+          height: 34px;
+          padding: 4px;
+        }
+
+        &.style-selected {
+          border: 1px solid pink;
+        }
+      }
+
+    }
+  }
+}

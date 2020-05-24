@@ -1,0 +1,44 @@
+[
+  {
+    "type_id": "14K-white",
+    "type_name": "14K White",
+    "icon_content": "14",
+    "icon_color": "gray",
+    "is_select": false
+  },
+  {
+    "type_id": "18K-white",
+    "type_name": "18K White",
+    "icon_content": "18",
+    "icon_color": "gray",
+    "is_select": false
+  },
+  {
+    "type_id": "14K-yellow",
+    "type_name": "14K Yellow",
+    "icon_content": "14",
+    "icon_color": "gold",
+    "is_select": false
+  },
+  {
+    "type_id": "18K-yellow",
+    "type_name": "18K Yellow",
+    "icon_content": "18",
+    "icon_color": "gold",
+    "is_select": false
+  },
+  {
+    "type_id": "platinum",
+    "type_name": "Platinum",
+    "icon_content": "PT",
+    "icon_color": "gray",
+    "is_select": false
+  },
+  {
+    "type_id": "rose-gold",
+    "type_name": "Rose Gold",
+    "icon_content": "RG",
+    "icon_color": "palevioletred",
+    "is_select": false
+  }
+]
